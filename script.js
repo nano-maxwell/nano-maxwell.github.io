@@ -46,7 +46,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+document.getElementById('goToLogInBtn').addEventListener('click', goToLogIn);
 
 function goToLogIn() {
+    alert("Button clicked!");
     window.location.href = 'log-in.html';
 }

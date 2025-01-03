@@ -121,6 +121,9 @@ body {
     background-color: #6C5CE7;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+.gobutton:hover{
+  cursor: pointer;
+}
 #signupoption {
     font-size: small;
 }
