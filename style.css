@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    font-size: xx-large;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Removes default margin */
+  }
+  .input-box{
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 600px;
+  }
+
+  .loading-page { display: flex; justify-content: center; align-items: center; height: 100vh; font-size: xx-large; background-color: #6C5CE7; color: white; }
+  .input-box:focus{
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+  }
+  #charCount{
+    font-size: small;
+    color: grey;
+    font-family: 'Poppins';
+    font-weight: 500;
+  }
+  .roundedcontainer{
+    background-color: #e6e6e6;
+    
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    text-align: start;
+  }
+  .subject{
+    width: 600px;
+  }
+  .subjectinput{
+    margin-top: 30px;
+  }
+  .loginlabel{
+    text-align: left;
+    text-indent: 10px;
+    font-size: medium;
+  }
+  .gobutton{
+    display: flex;
+    margin: 30px;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: large;
+    border: transparent;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 170px;
+    background-color: #6C5CE7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .letsgo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* style.css */
+
+.texting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if you want) */
+    text-align: left; /* Center text within the container */
+    width: flex;
+    padding: 0px; /* Adjust padding for better spacing */
+    font-size: small;
+}
+.infotext{
+    font-weight: 400;
+    font-size: medium;
+    width: 580px;
+}
+.addspace{
+    margin-bottom: 20px;
+}
+.infoinput{
+    width: 400px;
+    margin-bottom: 22px;
+    margin-top: 5px;
+}
+#loginbutton{
+    margin: 30px;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: large;
+    border: transparent;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 170px;
+    background-color: #6C5CE7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+#signupbutton{
+    margin: 30px;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: large;
+    border: transparent;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 170px;
+    background-color: #6C5CE7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+#signupoption {
+    font-size: small;
+}
